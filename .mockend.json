@@ -1,12 +1,12 @@
 {
   "Post": {
-    "title": { "string": {} },
+    "title": { "string": ["summer fun","new clothes","world tour","new job","learning a new language","first learning experience in a society"] },
     "comments": {
       "hasMany": "Comment"
     }
   },
   "Comment": {
-    "body": { "string": {} },
+    "body": { "string": ["nice!","have fun","you shound try .....!","hello there,come visit us !","another ......... speaker!"] },
     "post": {
       "belongsTo": "Post"
     }
